@@ -276,8 +276,8 @@ main {
   margin-bottom: 3em;
 }
 
-.main-posts__title,
-.about-me__title {
+.sidebar__title,
+.sidebar__title {
   font-family: "Ubuntu", sans-serif;
   font-size: 1.125rem;
   font-weight: 700;
@@ -314,5 +314,26 @@ main {
   width: 100%;
   border-bottom: 1px solid #000;
   margin-bottom: 1em;
+}
+
+.about-me__title {
+  font-family: "Lora", serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #143774;
+}
+
+.about-me__subtitle {
+  font-family: "Lora", serif;
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: #1792d2;
+}
+
+.about-me__text {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #707070;
 }
 /*# sourceMappingURL=style.css.map */
