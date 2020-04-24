@@ -8,11 +8,16 @@ body {
 /*  =======================
     Typography 
     =======================  */
-.site__title {
+h1,
+h2,
+h3 {
   font-family: "Lora", serif;
-  text-align: center;
   font-weight: 400;
+}
+
+.site__title {
   font-size: 3.375rem;
+  text-align: center;
   color: #143774;
   margin: 0;
 }
@@ -22,6 +27,8 @@ body {
 }
 
 .site__subtitle {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
   font-size: 1rem;
   color: #1792d2;
   text-align: center;
@@ -222,8 +229,6 @@ main {
 }
 
 .post__title {
-  font-family: "Lora", serif;
-  font-weight: 400;
   font-size: 1.5rem;
   line-height: 1.75rem;
   color: #143774;
@@ -273,6 +278,7 @@ main {
 
 .main-posts__title,
 .about-me__title {
+  font-family: "Ubuntu", sans-serif;
   font-size: 1.125rem;
   font-weight: 700;
   line-height: 1.75em;
@@ -297,10 +303,16 @@ main {
 }
 
 .main-posts__description {
-  font-family: "Lora", serif;
-  font-weight: 400;
   font-size: 1.125rem;
   line-height: 1.75rem;
   color: #143774;
+}
+
+.widget-recent-post + .widget-recent-post::before {
+  content: "";
+  display: inline-block;
+  width: 100%;
+  border-bottom: 1px solid #000;
+  margin-bottom: 1em;
 }
 /*# sourceMappingURL=style.css.map */
